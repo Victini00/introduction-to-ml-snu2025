@@ -10,7 +10,8 @@ Each assignment applies a different learning strategy to tackle the same classif
 
 ## Overview of Each Assignment
 
-### `pa1_Gaussian_Kernel.py` — **Kernel-based Learning**
+### `pa1_Gaussian_Kernel.py` 
+**Kernel-based Learning**
 
 - **Model Type**: Kernel regression-like classification
 - **Kernel Function**: Gaussian (RBF)
@@ -24,7 +25,10 @@ Each assignment applies a different learning strategy to tackle the same classif
   - Computationally slow
   - Requires all training data to be stored
 
-### `pa2_Support_Vector_Machine.py` — **Kernel SVM with SMO**
+---
+
+### `pa2_Support_Vector_Machine.py`
+**Kernel SVM with SMO**
 
 - **Model Type**: Support Vector Machine (SVM)
 - **Optimization**: Sequential Minimal Optimization (SMO)
@@ -40,7 +44,10 @@ Each assignment applies a different learning strategy to tackle the same classif
   - Complex implementation
   - Training time is relatively high
 
-### `pa3_Gradient_Descent&Closed-form_OLS.py` — **Logistic Regression & OLS**
+---
+
+### `pa3_Gradient_Descent&Closed-form_OLS.py`
+**Logistic Regression & OLS**
 
 #### 1. **Logistic Regression**
 - **Model Type**: Binary classifier using logistic loss
@@ -65,7 +72,10 @@ Each assignment applies a different learning strategy to tackle the same classif
   - Sensitive to outliers
   - Not originally designed for classification
 
-### `pa4_PCA&K-means&Value_Iteration.py` — **PCA + K-means Clustering**
+---
+
+### `pa4_PCA&K-means&Value_Iteration.py`
+**PCA + K-means Clustering**
 
 - **Model Type**: Unsupervised Learning
 - **Techniques**:
@@ -86,4 +96,6 @@ Each assignment applies a different learning strategy to tackle the same classif
   - Cluster assignments are ambiguous until post-matching
   - Sensitive to initial centroid selection
 ---
+
+
 > Note: This file also contains a Value Iteration example for FrozenLake, which is unrelated to MNIST and excluded from this description.
